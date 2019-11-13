@@ -1,0 +1,79 @@
+ul{
+	list-style:none
+}
+.mb-150{margin-bottom:150px}
+.mt-50{margin-top:50px}
+.mb-50{margin-bottom:50px}
+.mt-100{margin-top:100px}
+.ml-100{margin-left:100px}
+.mb-100{margin-bottom:120px}
+.pt-100{padding-top:10px}
+.pb-100{padding-bottom:100px}
+.about_left{position:relative}
+.about_img {
+	width: 345px;
+	float: left;
+}
+.about_img img {
+	width: 83%;
+	transition: .5s;
+	cursor: pointer;
+	height: 193px;
+}
+.about_img:hover img {
+	transform: scale(1.1);
+	z-index: 999;
+}
+.about_position {
+	position: absolute;
+	top: 50%;
+	left: 53%;
+	transform: translate(-57%,62%);
+}
+
+
+.about_right p {
+	font-size: 16px;
+	line-height: 29px;
+	margin-bottom: 32px;
+}
+
+
+
+.small_banner {
+	background: url(../第二页/images/article-1.jpg);
+	background-size:1500px 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.banner2 {
+    background: rgba(0,0,0,0.5);
+    min-height: 700px;
+}
+
+.small_head {
+    font-size: 60px;
+    color: #fff;
+    margin: 150px 0 0 0;
+}
+.small_para {
+    font-size: 18px;
+    color: #fff;
+    margin: 40px 0 0 0;
+}
+
+element.style {
+    vertical-align: inherit;
+}
+.small_btn {
+    background: #4E1A33;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+	margin: 200px 0 0 1000px;
+    transition: 1s ease;
+}
